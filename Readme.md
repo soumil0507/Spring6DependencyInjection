@@ -18,3 +18,9 @@
 - if you have two beans that spring will implement, make one primary to resolve the dependency issue
 
 ## Qualifiers
+- You have two beans
+    - One is primary annotated primary so by default spring context is going to pick up this bean
+    - You also have another bean
+    - Now you want this bean to be implemented by the controller
+    - Give this service a name or by default the name of this service is starting with lowercase class or bean name.
+    - and this will run the Bean 2
