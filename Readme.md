@@ -24,3 +24,6 @@
     - Now you want this bean to be implemented by the controller
     - Give this service a name or by default the name of this service is starting with lowercase class or bean name.
     - and this will run the Bean 2
+
+## Spring Profiles
+- 
