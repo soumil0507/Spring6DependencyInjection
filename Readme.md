@@ -13,3 +13,6 @@
 - Annotate controllers as Controller
 - Annotate service as Service
 - Anotate TestClasses as SpringBootTest
+
+## Primary Bean
+- if you have two beans that spring will implement, make one primary to resolve the dependency issue
