@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 import bose.soumil.spring6di.services.GreetingService;
 
-@Profile("EN")
+@Profile({"EN","default"})
 @Service("i18NService")
 public class EnglishGreetingService implements GreetingService{
 
@@ -13,5 +13,4 @@ public class EnglishGreetingService implements GreetingService{
     public String sayGreeting() {
         return "Hello World - EN";
     }
-
 }

@@ -26,4 +26,5 @@
     - and this will run the Bean 2
 
 ## Spring Profiles
-- 
+- We can set Annotate two same servies with different profiles when they implement the same interface.
+- While testing Annotate the class with ActiveProfiles to use the particular service.
