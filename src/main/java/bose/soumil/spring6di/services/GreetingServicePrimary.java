@@ -11,6 +11,4 @@ public class GreetingServicePrimary implements GreetingService{
     public String sayGreeting() {
         return "Hello from the Primary Bean!!";
     }
-    
-
 }
